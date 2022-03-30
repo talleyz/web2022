@@ -27,7 +27,7 @@ header {
       box-shadow: 2px 6px;
 }
 
-.indextable {
+ul {
   color: #1d00f4;
   display:grid;
   grid-template-columns: repeat(4, 1fr);
