@@ -103,3 +103,34 @@ img {
   grid-column: 2 / span 1;
   grid-row: 2;
 }
+
+.top {
+  grid-column: 1 / span 1;
+  grid-row: 1;
+  box-shadow: 3px 3px black;
+}
+.hoodies {
+  grid-column: 2 / span 1;
+  grid-row: 1;
+  box-shadow: 3px 3px black;
+}
+.jackets {
+  grid-column: 3 / span 1;
+  grid-row: 1;
+  box-shadow: 3px 3px black;
+}
+.dress {
+  grid-column: 1 / span 1;
+  grid-row: 2;
+  box-shadow: 3px 3px black;
+}
+.tank {
+  grid-column: 2 / span 1;
+  grid-row: 2;
+  box-shadow: 3px 3px black;
+}
+.bra {
+  grid-column: 3 / span 1;
+  grid-row: 2;
+  box-shadow: 3px 3px black;
+}
