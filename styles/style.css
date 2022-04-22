@@ -9,9 +9,6 @@ body {
   font-family: arial, sans-serif;
 }
 header {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  justify-items: left;
   height: 3.5rem;
   padding-top: .1rem;
   padding-bottom: .3rem;
@@ -30,12 +27,13 @@ header {
 ul {
   color: #1d00f4;
   display:grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 10px;
 
 }
 li {
-  border: 2px solid black;
+  list-style-type: none;
+  text-align: center;
 }
 h2 {
   color: #1d00f4;
@@ -62,75 +60,4 @@ img {
 }
 .header33{
   background:url('https://blackburnnews.com/wp-content/uploads/2017/01/canstockphoto8338643.jpg');
-}
-
-.tops {
-  grid-column: 1 / span 1;
-  grid-row: 1;
-  box-shadow: 3px 3px black;
-}
-.bottoms {
-  grid-column: 3 / span 1;
-  grid-row: 1;
-  box-shadow: 3px 3px black;
-}
-.shoes {
-  grid-column: 3 / span 1;
-  grid-row: 2;
-  box-shadow: 3px 3px black;
-}
-.access {
-  grid-column: 1 / span 1;
-  grid-row: 2;
-  box-shadow: 3px 3px black;
-}
-.misc {
-  grid-column: 1 / span 1;
-  grid-row: 3;
-  box-shadow: 3px 3px black;
-}
-.imgone {
-  grid-column: 2 / span 3;
-  grid-row: 1;
-}
-.imgtwo {
-  grid-column: 4 / span 1;
-  grid-row: 1;
-  height: 165px;
-  border-style: inset;
-}
-.imgthree {
-  grid-column: 2 / span 1;
-  grid-row: 2;
-}
-
-.top {
-  grid-column: 1 / span 1;
-  grid-row: 1;
-  box-shadow: 3px 3px black;
-}
-.hoodies {
-  grid-column: 2 / span 1;
-  grid-row: 1;
-  box-shadow: 3px 3px black;
-}
-.jackets {
-  grid-column: 3 / span 1;
-  grid-row: 1;
-  box-shadow: 3px 3px black;
-}
-.dress {
-  grid-column: 1 / span 1;
-  grid-row: 2;
-  box-shadow: 3px 3px black;
-}
-.tank {
-  grid-column: 2 / span 1;
-  grid-row: 2;
-  box-shadow: 3px 3px black;
-}
-.bra {
-  grid-column: 3 / span 1;
-  grid-row: 2;
-  box-shadow: 3px 3px black;
 }
